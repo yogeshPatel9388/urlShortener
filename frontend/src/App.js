@@ -25,7 +25,7 @@ function App() {
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
       <div className="max-w-xl w-full bg-gray-800 p-8 rounded-2xl shadow-2xl border border-gray-700">
         <h1 className="text-4xl font-bold text-center mb-2 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          LinkZap
+          JustALink
         </h1>
         <p className="text-gray-400 text-center mb-8">
           Shorten your long URLs instantly.
