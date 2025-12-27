@@ -10,11 +10,10 @@ function App() {
     e.preventDefault();
     setLoading(true);
     try {
-      // Replace with your Render URL after backend deployment
-      const res = await axios.post(
-        "https://shorturl-cuc3.onrender.com/shorten",
-        { longUrl }
-      );
+        // Replace with your Render URL after backend deployment
+        const res = await axios.post(`${process.env.REACT_APP_API_URL}/shorten`, {
+        longUrl,
+      });
       setShortUrl(res.data.shortUrl);
     } catch (err) {
       alert("Error shortening URL");
