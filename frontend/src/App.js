@@ -12,7 +12,7 @@ function App() {
     try {
       // Replace with your Render URL after backend deployment
       const res = await axios.post(
-        "https://your-backend-service.onrender.com/shorten",
+        "https://shorturl-cuc3.onrender.com/shorten",
         { longUrl }
       );
       setShortUrl(res.data.shortUrl);
