@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (CRITICAL)
+.env
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Databases (Local SQLite or Redis)
+*.sqlite
+*.db
+dump.rdb
+
+# Coverage / Testing
+coverage/
+.nyc_output
